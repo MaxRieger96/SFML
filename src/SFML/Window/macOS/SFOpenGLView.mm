@@ -88,13 +88,13 @@
 ////////////////////////////////////////////////////////
 - (id)initWithFrame:(NSRect)frameRect
 {
-    return [self initWithFrame:frameRect fullscreen:NO highDpi:NO];
+    return [self initWithFrame:frameRect fullscreen:NO highDpi:YES];
 }
 
 ////////////////////////////////////////////////////////
 - (id)initWithFrame:(NSRect)frameRect fullscreen:(BOOL)isFullscreen
 {
-    return [self initWithFrame:frameRect fullscreen:isFullscreen highDpi:NO];
+    return [self initWithFrame:frameRect fullscreen:isFullscreen highDpi:YES];
 }
 
 ////////////////////////////////////////////////////////
